@@ -6,7 +6,7 @@
 
 .headerContainer{
     grid-column-start: 1;
-    grid-column-end: 6;
+    grid-column-end: 3;
     display: grid;
     grid-template-rows: 50px 200px 200px;
     grid-template-columns: 50px auto 50px;
@@ -18,12 +18,12 @@
     display: grid;
     
     gap: 5px;
-    grid-template-columns:  repeat(3, 100px) ;
-    grid-template-rows: repeat(3, 200px) 300px;
+    grid-template-columns:  repeat(3, 200px) ;
+    grid-template-rows: repeat(3, 400px) 300px;
 }
 
 .footerContainer {
-    grid-column-start: 1;
+    grid-column-start: 2;
     grid-column-end: 6;
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
